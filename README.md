@@ -1,2 +1,4 @@
 # equal-groups-unequal-identities
 Auditing normative gender representations in vision-language models: within-group retrieval concentration in CLIP using a category-balanced face dataset. (NeurIPS 2026, MusIML Workshop)
+
+This repository accompanies the paper Equal Groups, Unequal Identities: Auditing Normative Gender Representations in Vision-Language Models. Existing fairness audits compare broad groups such as male and female. We instead examine how identities are represented within each group. Using a category-balanced dataset of 7,405 face images (37 female and 35 male categories) and two neutral prompts, we rank images by CLIP ViT-B/32 similarity and analyze the Top-500 retrievals. The results show concentration around socially normative identities, even when aggregate gender associations look balanced.
